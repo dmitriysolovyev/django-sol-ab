@@ -74,29 +74,6 @@ h1 span {
 	letter-spacing: -0.05em;	
 }
 
-.welcome-text {
-	margin-bottom: 11vh;
-	font-size: 0.28em;
-	text-transform: uppercase;
-	letter-spacing: 0.025em;	
-
-	/*display: none;*/
-}
-
-.welcome-text .text-rus {
-	line-height: 60%;
-	text-transform: lowercase
-}
-
-.welcome-text .text-rus:nth-child(2) {
-	margin-bottom: 10px;
-}
-
-.welcome-text .text-en {
-	font-size: 1.55em;
-	margin-bottom: 10px;
-}
-
 .contacts .email {
 	margin-bottom: 15px;
 	/*font-size: 0.33em;*/
@@ -139,22 +116,33 @@ h1 span {
 
 /*--------------------------*/
 .navbar-brand {
-	font-size: 1em;
+	/*padding-top: 10px;*/
+	font-size: 1.2em;
 }
 
 .navbar-brand h1 {
 	margin: 0;
 }
 
+.navbar-static-top h1 {
+	padding-left: 12px;
+}
+
 #nav-list {
 	letter-spacing: -0.05em;
 }
 
-#classifier {
-	text-align: left;
+#nav-list .active {
+	background: none;
+}
+
+.classifier {
+	padding-top: 40px;
+	/*text-align: left;*/
 }
 
 .btn-group-vertical {
+	/*display: block;*/
 	/*margin-left: -12px;*/
 }
 
@@ -163,6 +151,61 @@ h1 span {
 	text-align: left;
 	font-size: 1em;
 	letter-spacing: 0.005em;
+	opacity: 0.5;
+}
+
+ 
+.classifier .btn:focus,
+.classifier .btn:link,
+.classifier .btn:hover, 
+.classifier .btn:active {
+    outline: none;
+    background: none;
+    box-shadow: none;
+}
+
+.classifier .btn:focus,
+.classifier .btn:hover,
+.classifier .btn:active{
+    opacity: 1;
+    transition: 1s;
+}
+
+.projects {
+	/*padding-top: 30px;*/
+}
+
+.project {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 40px;
+}
+
+.thumbnail {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	opacity: 1;
+	transition: 1s;
+}
+
+.thumbnail:focus,
+.thumbnail:hover, 
+.thumbnail:active {
+    outline: none;
+    opacity: 0.4;
+    transition: 1s;
+}
+
+.project {
+	position: relative;
+}
+
+.caption {
+	position: absolute;
+	top: 40%;
+	opacity: 0;
 }
 
 /*--------------------------*/
