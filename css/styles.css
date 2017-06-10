@@ -204,10 +204,97 @@ h1 span {
 
 .caption {
 	position: absolute;
+	margin-left: -20px;
+	width: 100%;
 	top: 40%;
 	opacity: 0;
 }
 
+.caption p {
+	padding-left: 20px;
+	padding-right: 20px
+}
+
+footer {
+	height: 40px;
+}
+
+.carousel {
+	margin-left: 15px;
+	margin-top: 40px;
+}
+
+.carousel-inner .item {
+	margin: 0 auto;
+	float: none;
+}
+
+.carousel-control .glyphicon-menu-left,
+.carousel-control .glyphicon-menu-right {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+.carousel-control .glyphicon-menu-left {
+    left: 20%;
+    margin-left: -10px;
+}
+.carousel-control .glyphicon-menu-right {
+    right: 20%;
+    margin-right: -10px;
+}
+.carousel-control .glyphicon-menu-left,
+.carousel-control .glyphicon-menu-right {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
+
+.carousel-control.right {
+	background: none;
+}
+
+.carousel-control.left {
+	background: none;
+}
+
+.glyphicon {
+	box-shadow: none;
+	text-shadow: none;
+	color:  #c0c0c0;
+}
+
+.carousel-indicators {
+	bottom: -50px;
+}
+
+.carousel-indicators li {
+	border: 1px solid #c0c0c0;
+	background: #c0c0c0;
+	width: 5px;
+	height: 5px;
+}
+
+.carousel-indicators .active {
+	border: 1px solid #c0c0c0;
+	background: #c0c0c0;
+	width: 8px;
+	height: 8px;
+
+}
+
+.project-description {
+	margin-top: 40px;
+	margin-left: 40px;
+	text-align: left;
+	font-size: 0.85em;
+}
+
+footer .footer-separator hr{
+	border-top: 1px solid black;
+}
 /*--------------------------*/
 
 @media (min-width: 1200px) {
