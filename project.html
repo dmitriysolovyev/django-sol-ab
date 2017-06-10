@@ -23,8 +23,8 @@
 
 </body>
   <header>
-    <nav id="header-nav" class="navbar navbar-default navbar-static-top">
-      <div class="container-fluid">
+    <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
         <div class="navbar-header clearfix">
           <a class="navbar-brand" href="index.html">
             <h1 class = "font_roboto">
@@ -39,21 +39,21 @@
         </div>        
         <div id="collapsable-nav" class="collapse navbar-collapse">
           <ul id="nav-list" class="nav navbar-nav navbar-right font_opensans">
-            <li>
-              <a href="index.html">home</a>
-            </li>
-            <li class="active">
+            <li class="nav-active">
               <a href="projects.html">work</a>
             </li>
             <li>
               <a href="#">about</a>
+            </li>
+            <li>
+              <a href="#">contacts</a>
             </li>
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
       </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
-  <div class="container-fluid font_roboto">
+  <div class="container font_roboto">
     <main class="row">
       <div id="carousel-projects" class="carousel slide col-md-7" data-ride="carousel">
         <!-- Indicators -->
@@ -99,8 +99,11 @@
       </div>
     </main>
   </div>
-  <footer>
-    <div class="container-fluid">
+  <footer class="cover-footer">
+    <div class="container">
+      <div class='row'>
+        <p class="font_roboto">&copy 2017 by SOL. Architectural bureau.</p>  
+      </div>
     </div>
   </footer>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
