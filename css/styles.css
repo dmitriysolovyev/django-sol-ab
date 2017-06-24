@@ -106,7 +106,7 @@ h1 span {
 	z-index: 100;
 	bottom: 0;
 	width: 100%;
-	height: 40px;
+	height: 50px;
 	/*border-top: 1px solid gray;*/
 	background: white;
 	font-size: 0.75em;
@@ -114,8 +114,43 @@ h1 span {
 
 .cover-footer p {
 	margin-top: 20px;
-	margin-bottom: 5px;
+	/*margin-bottom: 10px;*/
+	/*color: gray;*/
+	text-align: right;
+}
+
+.cover-footer .footer-copyright {
+	text-align: left;
 	color: gray;
+}
+
+.footer-lang-switch {
+	/*color: black;*/
+	/*font-weight: 800;*/
+	/*text-align: right;*/
+}
+
+.cover-footer .footer-btn {
+	color: black;
+	border: none;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+.cover-footer .footer-btn:focus,
+.cover-footer .footer-btn:link,
+.cover-footer .footer-btn:hover, 
+.cover-footer .footer-btn:active {
+    outline: none;
+    background: none;
+    box-shadow: none;
+}
+
+.cover-footer .footer-btn:focus,
+.cover-footer .footer-btn:hover,
+.cover-footer .footer-btn:active{
+    opacity: 1;
+    transition: 1s;
 }
 
 /*--------------------------*/
@@ -145,8 +180,9 @@ h1 span {
 }
 
 #nav-list li.nav-active a {
-	color: black
+	color: black;
 }
+
 
 .classifier {
 	/*padding-top: 40px;*/
@@ -238,8 +274,8 @@ h1 span {
 
 .carousel {
 	/*margin-top: 40px;*/
-	padding-top: 110px;
-	padding-bottom: 60px;	
+	margin-top: 110px;
+	margin-bottom: 80px;	
 }
 
 .carousel-inner .item {
@@ -247,6 +283,13 @@ h1 span {
 	float: none;
 }
 
+.carousel-control.left {
+	left: 15px;
+}
+
+.carousel-control.right {
+	right: 15px;
+}
 .carousel-control .glyphicon-menu-left,
 .carousel-control .glyphicon-menu-right {
     width: 20px;
@@ -255,12 +298,12 @@ h1 span {
     font-size: 20px;
 }
 .carousel-control .glyphicon-menu-left {
-    left: 20%;
-    margin-left: -10px;
+    left: 0;
+    margin-left: 10px;
 }
 .carousel-control .glyphicon-menu-right {
-    right: 20%;
-    margin-right: -10px;
+    right: 0;
+    margin-right: 10px;
 }
 .carousel-control .glyphicon-menu-left,
 .carousel-control .glyphicon-menu-right {
@@ -285,7 +328,7 @@ h1 span {
 }
 
 .carousel-indicators {
-	bottom: -50px;
+	bottom: -40px;
 }
 
 .carousel-indicators li {
@@ -296,20 +339,46 @@ h1 span {
 }
 
 .carousel-indicators .active {
-	border: 1px solid #c0c0c0;
-	background: #c0c0c0;
-	width: 8px;
-	height: 8px;
+	margin: 1px;
+	border: 1px solid black;
+	background: black;
+	width: 5px;
+	height: 5px;
 
 }
 
 .project-description {
 	margin-top: 110px;
-	margin-left: 60px;
+	margin-left: 10px;
 	/*padding-top: 110px;
 	padding-bottom: 60px;*/
 	text-align: left;
 	font-size: 0.85em;
+}
+
+/*--------------------------*/
+.map {
+	margin-top: 70px;
+	margin-bottom: 60px;
+	text-align: left;
+}
+
+.map iframe {
+	margin-top: 40px;
+}
+
+.map-caption {
+	position: absolute;
+	bottom: -20px;
+}
+
+.contacts-info {
+	margin-top: 110px;
+	text-align: left;
+}
+
+.input-group {
+	/*margin-top: 110px;*/
 }
 
 /*--------------------------*/
